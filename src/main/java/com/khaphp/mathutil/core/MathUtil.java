@@ -9,7 +9,7 @@ package com.khaphp.mathutil.core;
  * @author LENOVO
  */
 public class MathUtil {
-    private MathUtil(){};
+    private MathUtil(){}
     
     public static long getFactorial(int n){
         if(n < 0 || n > 20)
