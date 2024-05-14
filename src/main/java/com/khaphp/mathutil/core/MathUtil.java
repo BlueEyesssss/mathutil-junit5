@@ -9,6 +9,8 @@ package com.khaphp.mathutil.core;
  * @author LENOVO
  */
 public class MathUtil {
+    private MathUtil(){};
+    
     public static long getFactorial(int n){
         if(n < 0 || n > 20)
             throw new IllegalArgumentException("n must be between 0..20");
